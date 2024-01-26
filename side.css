@@ -1,0 +1,42 @@
+.side{
+    position: fixed;
+    left: 0px;
+    top: 60px;
+    bottom: 0px;
+    width: 70px;
+    z-index: 2;
+}
+.notif{
+    position: relative;
+    border-radius: 10px;
+}
+.notif-number{
+    font-family: roboto,arial;
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    top: 0px;
+    right: -2px;
+    background-color: red;
+    border-radius: 20px;
+    padding-left: 3px;
+    padding-right: 2px;
+}
+.side-bar{
+    width: 64px;
+    height: 74px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.side-bar div{
+    font-family: roboto , arial;
+    font-size: 10px;
+    margin-top: 5px;
+}
+.side-bar:hover{
+    background-color: rgb(236, 234, 234);
+}
+
